@@ -14,7 +14,7 @@ To design and deploy a **multi-server architecture** ensuring:
 The architecture consists of multiple servers, each assigned specific roles:
 - **Instance 1 (DNS Server)** - Resolves domain names to IP addresses.
 - **Instance 2 (NFS Client + Web Server + Virtual Hosting)** - Hosts WordPress and connects to the database.
-- **Instance 3 (Master Database Server)** - Stores and replicates data.
+- **Instance 3 (Master Database Server + NFS Server)** - Stores and replicates data.
 - **Instance 4 (Slave Database Server)** - Ensures database redundancy.
 
 ## ⚙️ Functional Components
